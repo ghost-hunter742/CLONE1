@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+.base{
+    background-image: url(base.jpg);
+    width: 80vw;
+    height: 100vh;
+    object-fit: cover;
+    padding: 1vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+select{
+    display: inline;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(238, 130, 238, 0);
+    color: white;
+    font-weight: 300;
+    padding: 5px;
+    height: 30px;
+    width:100px;
+}
+a{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: 300;
+    padding: 5px;
+    text-decoration: none;
+    height: 30px;
+    width:100px;
+}
+option{
+    background-color: white;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    width: 90vw;
+    height: 70vh;
+    align-content: center;
+    color: white;
+}
+.big{
+    font-weight: bold;
+    font-size: 4vw;
+}
+.normal{
+    font-size: 1.5vw;
+}
+.normal1{
+    font-size: 1vw;
+}
+input{
+    width: 25vw;
+    height: 7vh;
+    color: white;
+    background-color: rgba(250, 235, 215, 0);
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.size{
+    display: inline-block;
+    align-content: center;
+    font-size:3vh;
+    font-weight: bold;
+    width: 15vw;
+    height: 6vh;
+}
+.netf{
+    width: 9vw;
+}
+hr{
+    background-color: rgb(241, 8, 163);
+    height: 0.5vh;
+}
+.nextpage{
+    background-color: black;
+    padding: 5vw;
+    width: 90vw;
+}
+.white{
+    color: white;
+    font-size: 30px;
+}
+.country{
+    margin: 1vw;
+    margin-left: 0px;
+}
+.boxes{
+    
+    display: flex;
+}
+.box{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 2vw;
+    background-color: rgb(48, 4, 87);
+    margin: 1vw;
+    padding: 0.5vw;
+}
+.whitesmall{
+    color: white;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+    padding: 1.5vw;
+    color: white;
+    background-color: rgb(60, 59, 59);
+    font-size: 20px;
+}
+.lastbox{
+    display: inline-block;
+    color: white;
+    width: 20vw;
+    margin: 0.5vw;
+    text-decoration: underline;
+}
